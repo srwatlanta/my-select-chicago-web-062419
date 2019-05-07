@@ -12,10 +12,3 @@ def my_select(collection)
  end
  selection
 end
-
-array = [1, 2, 3, 4]
-my_select(array) do |i|
-if array[i] % 2 == 0
-  return array[i]
-end
-end
